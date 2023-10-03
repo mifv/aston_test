@@ -43,6 +43,15 @@ public class Account {
         this.balance = balance;
     }
 
+    public Account(Long id, String name, String pin) {
+        this.id = id;
+        this.name = name;
+        this.pin = pin;
+    }
+
+    public Account() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
